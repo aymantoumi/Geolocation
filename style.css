@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #FBEEE6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+button {
+    max-width: max-content;
+    padding: .4rem .9rem;
+    outline: none;
+    background-color: #AED6F1;
+    border-radius: .2rem;
+    border: none;
+    font-weight: 800;
+    transition: all 350ms ;
+}
+
+button:hover {
+    scale: 1.3 ;
+    background-color: #5DADE2 ;
+    color: #FBEEE6 ;
+    box-shadow: 0 0 1rem #AED6F1;
+    cursor: pointer ;
+}
+
+h1 {
+    font-size: 8rem ;
+}
+
+span {
+    font-size: 2.5rem ;
+    font-weight: 800;
+}
+
+ul li {
+    font-weight: 700 ;
+}
